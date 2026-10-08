@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="Navora">
+    <meta name="theme-color" content="#EFFCDC">
+    <meta name="description" content="Navora — fast local shopping. We're coming soon.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://navoranow.com">
+    <meta property="og:title" content="Navora">
+    <meta property="og:description" content="Fast local shopping. We're coming soon.">
+    <meta property="og:image" content="navora-desktop.webp">
+    <title>Navora</title>
+    <link rel="icon" type="image/png" href="navora-icon.png">
+    <link rel="shortcut icon" href="navora-icon.png">
+    <link rel="apple-touch-icon" href="navora-icon.png">
+    <link rel="preload" as="image" href="navora-desktop.webp" media="(min-aspect-ratio: 4/5)">
+    <link rel="preload" as="image" href="navora-mobile.webp" media="(max-aspect-ratio: 4/5)">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="coming-soon" aria-labelledby="page-title">
+      <picture class="artwork">
+        <source media="(max-aspect-ratio: 4/5)" srcset="navora-mobile.webp" type="image/webp">
+        <img
+          src="navora-desktop.webp"
+          alt=""
+          width="1672"
+          height="941"
+          fetchpriority="high"
+          decoding="async"
+        >
+      </picture>
+
+      <div class="screen-reader-copy">
+        <p>Navora · Launching Soon</p>
+        <h1 id="page-title">We’re Coming Soon</h1>
+        <p>Navora quick-commerce is launching soon.</p>
+        <p>Fast local shopping, coming soon.</p>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+:root {
+  color-scheme: light;
+  background: #effcdc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Fredoka", Arial, sans-serif;
+}
+
+.coming-soon {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  min-height: 100svh;
+  overflow: hidden;
+  background: #effcdc;
+}
+
+.artwork,
+.artwork img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.artwork img {
+  object-fit: cover;
+  object-position: center;
+  animation: reveal 700ms ease-out both;
+}
+
+.screen-reader-copy {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes reveal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* At tablet and squarer window sizes, keep every word in the artwork visible. */
+@media (min-aspect-ratio: 4/5) and (max-aspect-ratio: 7/5) {
+  .coming-soon {
+    background-image: url("navora-desktop.webp");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .artwork {
+    backdrop-filter: blur(18px);
+  }
+
+  .artwork img {
+    object-fit: contain;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .artwork img {
+    animation: none;
+  }
+}

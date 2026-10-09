@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://navoranow.com/sitemap.xml

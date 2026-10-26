@@ -103,3 +103,15 @@ footer.content { border-top: 1px solid #8fa980; }
 .brand-gallery figcaption { font-size: 0.9rem; margin-top: 0.35rem; }
 @media (min-width: 640px) { .brand-gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 @media (prefers-reduced-motion: reduce) { .brand-gallery img { transition: none; } }
+
+/* Learn page: question-and-answer cards */
+.qa-toc { display: block; margin-block: 1.5rem; padding: 1rem 1.25rem; background: #fff; border-radius: 14px; }
+.qa-toc p { margin: 0 0 .25rem; }
+.qa-toc ol { margin: 0; padding-left: 1.25rem; }
+.qa-toc li a { display: inline; min-height: 0; }
+.qa { margin-block: 1.25rem; padding: 1.25rem; background: #fff; border-radius: 14px; scroll-margin-top: 1rem; }
+.qa h2 { margin-top: .25rem; }
+.qa-tag { margin: 0; font-size: .8rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #205c17; }
+.qa-answer { font-size: 1.05rem; }
+.qa-source { font-size: .9rem; color: #3d5a45; }
+.qa-watch { font-weight: 700; }

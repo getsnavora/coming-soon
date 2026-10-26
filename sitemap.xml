@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://navoranow.com/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://navoranow.com/</loc>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navo-navora-mascot.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-app-shopping-screen.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-app-order-tracking.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-delivery-rider.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-grocery-box.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-packaging.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-family-groceries.webp</image:loc></image:image>
+    <image:image><image:loc>https://navoranow.com/gallery-images/navora-leaf-logo-cap.webp</image:loc></image:image>
+  </url>
   <url><loc>https://navoranow.com/about/</loc></url>
   <url><loc>https://navoranow.com/manjeri/</loc></url>
 </urlset>
